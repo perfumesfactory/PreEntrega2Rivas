@@ -9,7 +9,7 @@ export default function NavBar() {
         <div className=" cursor-pointer">
           <Link to={`/`}>
             <img
-              src="src/assets/images/logo-pc-parts.png"
+              src="../src/assets/images/logo-pc-parts.png"
               alt="Logo"
               className="h-[65px]"
             />
