@@ -1,0 +1,23 @@
+.contenedorProducto{
+    @apply w-[75%] shadow-lg mx-auto mt-6 rounded-xl p-8;
+}
+
+.contenedorProducto h2{
+    @apply font-bold text-3xl text-right items-end;
+}
+
+.etiqueta{
+    @apply bg-green-500 text-white w-32 px-2 rounded-full text-lg font-bold mb-2 mt-2 text-center;
+}
+
+.description{
+    @apply text-justify mt-3 p-3 rounded-lg bg-gray-100
+}
+
+.precio{
+    @apply w-full text-right font-black text-6xl text-orange-600
+}
+
+.precio span{
+    @apply text-2xl;
+}
