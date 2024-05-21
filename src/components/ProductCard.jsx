@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 export default function ProductCard({productId,title,price,image,description,category,}) {
 
-  const imagen = `/src/assets/images/product/${image}`;
+  const imagen = `src/assets/images/product/${image}`;
 
   return (
     <>
